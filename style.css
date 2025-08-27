@@ -1,0 +1,158 @@
+/* styles.css */
+
+/* General page styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6fa;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #3a7ca5;
+    color: #fff;
+    padding: 32px 0;
+    text-align: center;
+    border-bottom: 4px solid #28516b;
+    margin-bottom: 32px;
+}
+
+/* Main container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 32px;
+    border: 2px solid #e0e4ea;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(58, 124, 165, 0.08);
+}
+
+/* Headings */
+h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #3a7ca5;
+    border-left: 4px solid #3a7ca5;
+    padding-left: 12px;
+    background: #f0f6fb;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #28516b;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 16px;
+    padding: 8px 0;
+}
+
+/* Navigation styles */
+nav {
+    background: #eaf2fb;
+    padding: 12px 0;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+nav a {
+    color: #3a7ca5;
+    text-decoration: none;
+    margin: 0 16px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+nav a:hover {
+    background: #d0e6f7;
+}
+
+/* Card section to demonstrate box model */
+.card {
+    background: #f9fbfd;
+    border: 2px solid #c2d6e6;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 4px rgba(58, 124, 165, 0.06);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    background: #3a7ca5;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background 0.2s;
+}
+
+.button:hover {
+    background: #28516b;
+}
+
+/* Box model demo section */
+.box-demo {
+    background: #eaf2fb;
+    border: 3px dashed #3a7ca5;
+    padding: 24px;
+    margin: 32px 0;
+    text-align: center;
+}
+
+.box-demo p {
+    background: #fff;
+    border: 2px solid #3a7ca5;
+    padding: 16px;
+    margin: 16px auto;
+    width: 60%;
+    border-radius: 6px;
+}
+
+/* Footer styles */
+footer {
+    background: #3a7ca5;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+    margin-top: 40px;
+    border-top: 4px solid #28516b;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container, .box-demo p {
+        padding: 12px;
+        width: 98%;
+    }
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+}
